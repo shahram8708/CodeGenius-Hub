@@ -11,10 +11,6 @@ CodeGenius Hub is a web application designed to help users input code, receive i
 - **Copy to Clipboard:** Users can copy the code suggestions to the clipboard.
 - **Device Check:** Alerts users if they are not using a desktop, laptop, or MacBook.
 
-## Screenshots
-
-![CodeGenius Hub](screenshot.png)
-
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript (jQuery)
@@ -122,4 +118,4 @@ This project is licensed under the MIT License.
 
 - **Author:** Shah Ram
 - **Email:** shahram8708@gmail.com
-- **GitHub:** [yourusername](https://github.com/shahram8708)
+- **GitHub:** [Shah Ram](https://github.com/shahram8708)
