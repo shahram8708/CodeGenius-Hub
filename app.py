@@ -6,7 +6,7 @@ import markdown
 app = Flask(__name__, static_url_path='/static')
 logging.basicConfig(level=logging.DEBUG)
 
-API_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBt_UKi-gC5PM9VsIZ0TjoJMAVKsYM0KVU"
+API_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=API_Key"
 
 DEFAULT_TEXT = "I will give you code, and you should tell me the output of that code. If there is any mistake or error in the code, identify the error and explain what it is. Then, provide the correct version of the code with a complete and accurate solution. When I ask you to generate code, only give the code without any additional explanation. Additionally, when I give you incomplete code, you should provide the complete code with the correct syntax. When you generate the response, it should follow this format: 1. Output of the code. 2. Explanation of the error in the code, if any (if there is no error, say there is no error). 3. Explanation of the code. 4. Complete and correct version of the code. Everything should be formatted properly."
 
